@@ -1,0 +1,599 @@
+body {
+ background: #2c3338;
+ color: #606468;
+ font: 87.5%/1.5em 'Open Sans', sans-serif;
+ margin: 0;
+ overflow-y:auto !important;
+ overflow-x:hidden !important;
+
+}
+
+.contain{
+  position:relative;
+  top:-520px;
+}
+
+#divider{
+  position: relative;
+  border-style: solid;
+  border-top: thick solid #ffffff;
+  border-bottom-style:hidden;
+  border-right-style:hidden;
+  border-left-style:hidden;
+}
+
+#logout{
+  text-align:right;
+  position: relative;
+  top:-145px;
+  color:blue;
+  margin-bottom: -50px;
+  margin-right: 5px;
+}
+#home{
+  text-align:right;
+  position: relative;
+  top:-145px;
+  color:blue;
+  margin-right: 5px;
+
+}
+
+/*header buttons*/
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700|Raleway:400,300,700);
+@font-face {
+	font-family: 'codropsicons';
+	src:url('../fonts/codropsicons/codropsicons.eot');
+	src:url('../fonts/codropsicons/codropsicons.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/codropsicons/codropsicons.woff') format('woff'),
+		url('../fonts/codropsicons/codropsicons.ttf') format('truetype'),
+		url('../fonts/codropsicons/codropsicons.svg#codropsicons') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+.container > header,
+.codrops-top {
+	font-family: 'Lato', Arial, sans-serif;
+}
+
+.container > header {
+	margin: 0 auto;
+	padding: 2em;
+	text-align: center;
+	color: #89867e;
+}
+
+.container > header h1 {
+	font-size: 2.625em;
+	line-height: 1.3;
+	margin: 0;
+	font-weight: 300;
+}
+
+.container > header span {
+	display: block;
+	font-size: 60%;
+	color: #ceccc6;
+	padding: 0 0 0.6em 0.1em;
+}
+
+/* To Navigation Style */
+.codrops-top {
+	background: #fff;
+	background: rgba(255, 255, 255, 0.6);
+	text-transform: uppercase;
+	width: 100%;
+	font-size: 0.69em;
+	line-height: 2.2;
+}
+
+.codrops-top a {
+	text-decoration: none;
+	padding: 0 1em;
+	letter-spacing: 0.1em;
+	color: #888;
+	display: inline-block;
+}
+
+.codrops-top a:hover {
+	background: rgba(255,255,255,0.95);
+	color: #716d62;
+}
+
+.codrops-top span.right {
+	float: right;
+}
+
+.codrops-top span.right a {
+	float: left;
+	display: block;
+}
+
+.codrops-icon:before {
+	font-family: 'codropsicons';
+	margin: 0 4px;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+
+.codrops-icon-drop:before {
+	content: "\e001";
+}
+
+.codrops-icon-prev:before {
+	content: "\e004";
+}
+
+.container > section {
+	margin: 0 auto;
+	padding: 10em 3em;
+	text-align: center;
+}
+
+.color-1 {
+
+}
+nav a {
+	position: relative;
+	display: block;
+  top:-145px;
+  float:right;
+	margin: 15px 25px;
+	outline: none;
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 400;
+	text-shadow: 0 0 1px rgba(255,255,255,0.3);
+	font-size: 1.35em;
+}
+
+/* slogan */
+.slogan{
+  position: absolute;
+  top:30px;
+  left:700px;
+  margin:  0 auto;
+  margin-bottom: -80px;
+     width: 40%;
+     padding: 10px;
+
+}
+
+nav a:hover,
+nav a:focus {
+	outline: none;
+}
+
+/* Effect 1: Brackets */
+.cl-effect-1 a::before,
+.cl-effect-1 a::after {
+	display: inline-block;
+	opacity: 0;
+	-webkit-transition: -webkit-transform 0.3s, opacity 0.2s;
+	-moz-transition: -moz-transform 0.3s, opacity 0.2s;
+	transition: transform 0.3s, opacity 0.2s;
+}
+
+.cl-effect-1 a::before {
+	margin-right: 10px;
+	content: '[';
+	-webkit-transform: translateX(20px);
+	-moz-transform: translateX(20px);
+	transform: translateX(20px);
+}
+
+.cl-effect-1 a::after {
+	margin-left: 10px;
+	content: ']';
+	-webkit-transform: translateX(-20px);
+	-moz-transform: translateX(-20px);
+	transform: translateX(-20px);
+}
+
+.cl-effect-1 a:hover::before,
+.cl-effect-1 a:hover::after,
+.cl-effect-1 a:focus::before,
+.cl-effect-1 a:focus::after {
+	opacity: 1;
+	-webkit-transform: translateX(0px);
+	-moz-transform: translateX(0px);
+	transform: translateX(0px);
+}
+
+/* End header buttons/
+
+
+/*Lets start with the cloud formation rather*/
+
+/*The container will also serve as the SKY*/
+.container{
+  height: 500px;
+}
+*{ margin: 0; padding: 0; border: none;}
+
+#clouds{
+ padding: 50px 0;
+ background: #c9dbe9;
+ background: -webkit-linear-gradient(top, #c9dbe9 0%, #fff 100%);
+ background: -linear-gradient(top, #c9dbe9 0%, #fff 100%);
+ background: -moz-linear-gradient(top, #c9dbe9 0%, #fff 100%);
+}
+
+/*Time to finalise the cloud shape*/
+.cloud {
+ width: 200px;
+ height: 80px;
+ background: #fff;
+
+ border-radius: 200px;
+ -moz-border-radius: 200px;
+ -webkit-border-radius: 200px;
+
+ position: relative;
+}
+
+.cloud:before, .cloud:after {
+ content: '';
+ position: absolute;
+ background: #fff;
+ width: 100px; height: 80px;
+ position: absolute; top: -15px; left: 10px;
+
+ border-radius: 100px;
+ -moz-border-radius: 100px;
+ -webkit-border-radius: 100px;
+
+ -webkit-transform: rotate(30deg);
+ transform: rotate(30deg);
+ -moz-transform: rotate(30deg);
+}
+
+.cloud:after {
+ width: 120px; height: 120px;
+ top: -55px; left: auto; right: 15px;
+}
+
+/*Time to animate*/
+.x1 {
+ -webkit-animation: moveclouds 15s linear infinite;
+ -moz-animation: moveclouds 15s linear infinite;
+ -o-animation: moveclouds 15s linear infinite;
+}
+
+/*variable speed, opacity, and position of clouds for realistic effect*/
+.x2 {
+ left: 200px;
+
+ -webkit-transform: scale(0.6);
+ -moz-transform: scale(0.6);
+ transform: scale(0.6);
+ opacity: 0.6; /*opacity proportional to the size*/
+
+ /*Speed will also be proportional to the size and opacity*/
+ /*More the speed. Less the time in 's' = seconds*/
+ -webkit-animation: moveclouds 25s linear infinite;
+ -moz-animation: moveclouds 25s linear infinite;
+ -o-animation: moveclouds 25s linear infinite;
+}
+
+.x3 {
+ left: -250px; top: -200px;
+
+ -webkit-transform: scale(0.8);
+ -moz-transform: scale(0.8);
+ transform: scale(0.8);
+ opacity: 0.8; /*opacity proportional to the size*/
+
+ -webkit-animation: moveclouds 20s linear infinite;
+ -moz-animation: moveclouds 20s linear infinite;
+ -o-animation: moveclouds 20s linear infinite;
+}
+
+.x4 {
+ left: 470px; top: -250px;
+
+ -webkit-transform: scale(0.75);
+ -moz-transform: scale(0.75);
+ transform: scale(0.75);
+ opacity: 0.75; /*opacity proportional to the size*/
+
+ -webkit-animation: moveclouds 18s linear infinite;
+ -moz-animation: moveclouds 18s linear infinite;
+ -o-animation: moveclouds 18s linear infinite;
+}
+
+.x5 {
+ left: -150px; top: -150px;
+
+ -webkit-transform: scale(0.8);
+ -moz-transform: scale(0.8);
+ transform: scale(0.8);
+ opacity: 0.8; /*opacity proportional to the size*/
+
+ -webkit-animation: moveclouds 20s linear infinite;
+ -moz-animation: moveclouds 20s linear infinite;
+ -o-animation: moveclouds 20s linear infinite;
+}
+
+@-webkit-keyframes moveclouds {
+ 0% {margin-left: 1000px;}
+ 100% {margin-left: -1000px;}
+}
+@-moz-keyframes moveclouds {
+ 0% {margin-left: 1000px;}
+ 100% {margin-left: -1000px;}
+}
+@-o-keyframes moveclouds {
+ 0% {margin-left: 1000px;}
+ 100% {margin-left: -1000px;}
+}
+
+/*----Registration----*/
+
+*/*Set's border, padding and margin to 0 for all values*/
+{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+#addparent{
+  position:relative;
+  top:-40px;
+  text-align:right;
+  float:right;
+  margin-bottom:-20px;
+}
+#addchild{
+  position:relative;
+  top:-20px;
+  text-align:right;
+  float:right;
+  margin-bottom:-20px;
+}
+
+.notes{
+  width: 245px  !important;
+  height: 50px !important;
+  color: #505050;
+}
+
+body, html {
+    color: #373C40;
+    font-family: Verdana,Arial, Helvetica, sans-serif;
+    height: 100%;
+}
+body {
+    font-size: 70%;
+}
+p {
+    padding: 7px 0 7px 0;
+    font-weight: 500;
+    font-size: 10pt;
+}
+a {
+    color: #656565;
+    text-decoration:none;
+}
+a:hover{
+    color: #EA4C88;
+    text-decoration: none;
+}
+h1 {
+    font-weight:200;
+    color: #888888;
+    font-size:16pt;
+    padding-left:0px;
+    margin:7px 5px 8px 8px;
+}
+h4 {
+    padding:1px;
+    color: #ACACAC;
+    font-size:9pt;
+    font-weight:100;
+    text-transform:uppercase;
+}
+form.register{
+    width:800px;
+    margin: 20px auto 0px auto;
+    height:490px;
+    background-color:#fff;
+    padding:5px;
+    -moz-border-radius:20px;
+    -webkit-border-radius:20px;
+}
+form p{
+    font-size: 8pt;
+    clear:both;
+    margin: 0;
+    color:gray;
+    padding:4px;
+}
+form.register fieldset.row1
+{
+    width:770px;
+    padding:5px;
+    float:left;
+    border-top:1px solid #F5F5F5;
+    margin-bottom:15px;
+}
+form.register fieldset.row1 label{
+    width:140px;
+    float: left;
+    text-align: right;
+    margin-right: 6px;
+    margin-top:2px;
+}
+form.register fieldset.row2
+{
+    border-top:1px solid #F1F1F1;
+    border-right:1px solid #F1F1F1;
+    height:220px;
+    padding:5px;
+    float:left;
+}
+form.register fieldset.row3
+{
+    border-top:1px solid #F1F1F1;
+    padding:5px;
+    float:left;
+    margin-bottom:15px;
+    width:400px;
+}
+form.register fieldset.row4
+{
+    position: relative;
+    top:-100px;
+    left: 400px;
+    border-top:1px solid #F1F1F1;
+    border-right:1px solid #F1F1F1;
+    padding:5px;
+    float:left;
+    clear:both;
+    width:500px;
+}
+form.register .infobox{
+    float:right;
+    margin-top:20px;
+    border: 1px solid #F1F1F1;
+    padding:5px;
+    width:380px;
+    height:98px;
+    font-size:9px;
+    background: #FDFEFA url(../images/bg_infobox.gif) repeat-x top left;
+}
+form.register legend
+{
+    color: #EA4C88;
+    padding:2px;
+    margin-left: 14px;
+    font-weight:bold;
+    font-size: 14px;
+    font-weight:100;
+}
+form.register label{
+    color:#444;
+    width:98px;
+    float: left;
+    text-align: right;
+    margin-right: 6px;
+    margin-top:2px;
+}
+form.register label.optional{
+    float: left;
+    text-align: right;
+    margin-right: 6px;
+    margin-top:2px;
+    color: #A3A3A3;
+}
+form.register label.obinfo{
+    float:right;
+    padding:3px;
+    font-style:italic;
+}
+form.register input{
+    width: 140px;
+    color: #505050;
+    float: left;
+    margin-right: 5px;
+}
+form.register input.long{
+    width: 247px;
+    color: #505050;
+}
+form.register input.short{
+    width: 40px;
+    color: #505050;
+}
+form.register input[type=radio]
+{
+    float:left;
+    width:15px;
+}
+form.register label.gender{
+    margin-top:-1px;
+    margin-bottom:2px;
+    width:34px;
+    float:left;
+    text-align:left;
+    line-height:19px;
+}
+form.register input[type=text]
+{
+    border: 1px solid #E1E1E1;
+    height: 18px;
+}
+form.register input[type=password]
+{
+    border: 1px solid #E1E1E1;
+    height: 18px;
+}
+.button
+{
+    position: relative;
+    top:45px;
+    background: #EA4C88 url(../images/overlay.png) repeat-x;
+    padding: 8px 10px 8px;
+    color: #fff;
+    text-decoration: none;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+    -webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+    text-shadow: 0 -1px 1px rgba(0,0,0,0.25);
+    cursor: pointer;
+    float:right;
+    font-size:18px;
+    margin:10px;
+}
+form.register input[type=text].year
+{
+    border: 1px solid #E1E1E1;
+    height: 18px;
+    width:30px;
+}
+form.register input[type=checkbox] {
+    width:14px;
+    margin-top:4px;
+}
+form.register select
+{
+    border: 1px solid #E1E1E1;
+    width: 130px;
+    float:left;
+    margin-bottom:3px;
+    color: #505050;
+    margin-right:5px;
+}
+form.register select.date
+{
+    width: 40px;
+}
+input:focus, select:focus{
+    background-color: #efffe0;
+}
+p.info{
+    font-size:7pt;
+    color: gray;
+}
+p.agreement{
+    margin-left:15px;
+}
+p.agreement label{
+    width:390px;
+    text-align:left;
+    margin-top:3px;
+}
+
+
+
+
+/*----End Registration----*/

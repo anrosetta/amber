@@ -1,0 +1,29 @@
+
+.randbg {
+background: url('../images/bgart1.jpg') no-repeat center center fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+.randbg.bg1 {
+background-image: url('../images/bgart2.jpg');
+}
+.randbg.bg2 {
+background-image: url('../images/bgart3.jpg');
+}
+.randbg.bg3 {
+background-image: url('../images/bgart4.jpg');
+}
+.randbg.bg4 {
+background-image: url('../images/bgart5.jpg');
+}
+.randbg.bg5 {
+background-image: url('../images/bgart6.jpg');
+}
+.randbg.bg6 {
+background-image: url('../images/bgart7.jpg');
+}
+.randbg.bg7 {
+background-image: url('../images/bgart8.jpg');
+}

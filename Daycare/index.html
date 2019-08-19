@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>Smiles(: Daycare</title>
+
+
+        <link rel="stylesheet" href="css/stylesMainV2.css">
+
+
+  </head>
+
+  <body>
+    <script type="text/javascript">
+    <!--
+    function redirectreg() {
+      window.location = "html/register.html"
+
+    }
+    //-->
+    <!--
+    function redirectlog() {
+      window.location = "html/homeV2.html"
+
+    }
+    //-->
+    </script>
+    <script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="/rand.bg.js"></script>
+    <script>
+    $(".randbg").RandBG();
+    </script>
+    <!--LOGO-->
+      <p class="logo" style="background-color:transparent">
+        <img src="images/logo6.png" alt="Logo" >
+      </p>
+    </p>
+    <!--Slogan-->
+      <p class="slogan" style="background-color:transparent">
+        <img src="images/slogan.png" alt="Logo" >
+      </p>
+    <div id="clouds">
+	<div class="cloud x1"></div>
+	<!-- Time for multiple clouds to dance around -->
+	<div class="cloud x2"></div>
+	<div class="cloud x3"></div>
+	<div class="cloud x4"></div>
+	<div class="cloud x5"></div>
+</div>
+
+ <div class="container">
+
+
+      <div id="login">
+
+        <form method="post">
+
+          <fieldset class="clearfix">
+              <h1> Welcome </h1>
+            <p><span class="fontawesome-user"></span><input type="text" value="Employee ID #" onBlur="if(this.value == '') this.value = 'Username'" onFocus="if(this.value == 'Username') this.value = ''" required></p> <!-- JS because of IE support; better: placeholder="Username" -->
+            <p><span class="fontawesome-lock"></span><input type="password"  value="Password" onBlur="if(this.value == '') this.value = 'Password'" onFocus="if(this.value == 'Password') this.value = ''" required></p> <!-- JS because of IE support; better: placeholder="Password" -->
+            <p><input type="button"  onclick="redirectlog()" value="Sign In"></p>
+
+
+          </fieldset>
+
+        </form>
+
+
+      </div> <!-- end login -->
+
+    </div>
+
+
+
+
+
+  </body>
+</html>

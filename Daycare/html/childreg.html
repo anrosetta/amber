@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+
+
+  <head>
+
+<link rel="stylesheet" href="../css/stylesChildReg.css">
+<title>Smiles(: Daycare</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
+  </head>
+
+
+  <body>
+
+    <!--LOGO-->
+      <p class="logo" style="background-color:transparent">
+        <img src="../images/logo6.png" alt="Logo" >
+        <!--Slogan-->
+          <p class="slogan" style="background-color:transparent">
+            <img src="../images/slogan.png" alt="Logo" >
+          </p>
+<!--header-->
+<section class="color-1">
+<nav class="cl-effect-1">
+  <a href="../index.html">Logout</a>
+  <a href="../html/homeV2.html">Home</a>
+</nav>
+</section>
+
+<div class="container">
+
+						<div id="clouds">
+					<div class="cloud x1"></div>
+					<!-- Time for multiple clouds to dance around -->
+					<div class="cloud x2"></div>
+					<div class="cloud x3"></div>
+					<div class="cloud x4"></div>
+					<div class="cloud x5"></div>
+				</div>
+
+</div>
+
+<div class="contain">
+<form action="../php/childReg.php" method="post" class="register">
+    <h1>Child Registration</h1>
+    <div id="addparent">
+      <a href="../html/parentreg.html">+ Add Parent</a>
+    </div>
+    <div id="addchild">
+      <a href="../html/childreg.html">+ Add Child</a>
+    </div>
+    <fieldset class="row1">
+        <legend>Account Details
+        </legend>
+        <p>
+            <label>Child ID *
+            </label>
+            <input type="text" name="ChildID"/>
+            <label> First Name
+            </label>
+            <input type="text" name="FirstName"/>
+        </p>
+
+    </fieldset>
+    <fieldset class="row2">
+        <legend>Personal Details
+        </legend>
+        <p>
+            <label>Last Name *
+            </label>
+            <input type="text" class="long" name="LastName"/>
+        </p>
+        <p>
+            <label>Age *
+            </label>
+            <input type="text" class="long" name="Age"/>
+        </p>
+        <p>
+            <label>Gender
+            </label>
+            <input type="text" name="Sex"/>
+        </p>
+        <p>
+            <label>Parents ID
+            </label>
+            <input type="text" class="long" name="UserID"/>
+        </p>
+        <p>
+            <label>Any Allergies or Notes that need to be known?
+            </label>
+            <input type="text" class="long" name="AllgNotes"/>
+        </p>
+
+
+    </fieldset>
+
+
+    <fieldset class="row4">
+        <legend>Terms
+        </legend>
+        <p class="agreement">
+            <input type="checkbox" value=""/>
+            <label>*  I accept the <a href="#">Terms and Conditions</a></label>
+        </p>
+
+    </fieldset>
+    <div><button class="button" type="submit" value="Submit" >Register &raquo;</button></div>
+
+</form>
+</div>
+  </body>
+</html>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+
+
+
+<html>
+	<head>
+
+		<link rel="stylesheet" href="../css/stylesChildCheckinout.css">
+		<title>Smiles(: Daycare</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width">
+
+	</head>
+	<body>
+
+
+		      <!--LOGO-->
+		        <p class="logo" style="background-color:transparent">
+		          <img src="../images/logo6.png" alt="Logo" >
+		        </p>
+						<!--Slogan-->
+							<p class="slogan" style="background-color:transparent">
+								<img src="../images/slogan.png" alt="Logo" >
+							</p>
+						<!--header-->
+						<section class="color-1">
+						  <nav class="cl-effect-1">
+						    <a href="../index.html">Logout</a>
+								<a href="homeV2.html">Home</a>
+						  </nav>
+						</section>
+						<div id="clouds">
+					<div class="cloud x1"></div>
+					<!-- Time for multiple clouds to dance around -->
+					<div class="cloud x2"></div>
+					<div class="cloud x3"></div>
+					<div class="cloud x4"></div>
+					<div class="cloud x5"></div>
+				</div>
+
+				<div class="contain">
+				<div class="container">
+
+
+						 <div id="login">
+
+							 <form method="post">
+
+								 <fieldset class="clearfix">
+
+
+									 <p><span class="fontawesome-user"></span><input type="text" value="Parent ID #" onBlur="if(this.value == '') this.value = 'Username'" onFocus="if(this.value == 'Username') this.value = ''" required></p> <!-- JS because of IE support; better: placeholder="Username" -->
+									 <p><span class="fontawesome-lock"></span><input type="password"  value="Parent Password" onBlur="if(this.value == '') this.value = 'Password'" onFocus="if(this.value == 'Password') this.value = ''" required></p> <!-- JS because of IE support; better: placeholder="Password" -->
+									 <p><span class="fontawesome-user"></span><input type="text" value="Child ID #" onBlur="if(this.value == '') this.value = 'Username'" onFocus="if(this.value == 'Username') this.value = ''" required></p> <!-- JS because of IE support; better: placeholder="Username" -->
+
+									 <p><input type="submit" value="Check-In"></p>
+								 </br>
+									 <p><input type="submit" value="Check-Out"></p>
+								 </fieldset>
+
+							 </form>
+
+
+						 </div> <!-- end login -->
+					 </div>
+		</body>
+
+</html>
